@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="KiaraLensCollectionViewCell" customModule="lenskart_clone_123" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="234"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="393" height="234"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="uZ3-i8-9TD">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="234"/>
+                    </imageView>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="uZ3-i8-9TD" secondAttribute="bottom" id="7b0-FK-t3H"/>
+                <constraint firstItem="uZ3-i8-9TD" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="BGu-tQ-T7N"/>
+                <constraint firstItem="uZ3-i8-9TD" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="JFV-bZ-0Xk"/>
+                <constraint firstAttribute="trailing" secondItem="uZ3-i8-9TD" secondAttribute="trailing" id="znc-3f-b4e"/>
+            </constraints>
+            <size key="customSize" width="304" height="195"/>
+            <connections>
+                <outlet property="KiaraImageView" destination="uZ3-i8-9TD" id="OeF-F9-vZ9"/>
+            </connections>
+            <point key="canvasLocation" x="311.4503816793893" y="70.774647887323951"/>
+        </collectionViewCell>
+    </objects>
+</document>
